@@ -10,6 +10,8 @@ namespace Journey.Exception.ExceptionsBase
             
         }
 
+        public abstract IList<string> GetErrorMessages();
+
         public abstract HttpStatusCode GetStatusCode();
     }
 }
